@@ -4,7 +4,7 @@
 angular.module('MyFirstApp', [])
 
 .controller('MyFirstController', function( $scope ) {
-  $scope.firstname="Johny";
+  $scope.firstname="Dora";
   $scope.familyname="Bravo";
   $scope.sayHello = function () {
     return "Zwrotka z funkcji";
